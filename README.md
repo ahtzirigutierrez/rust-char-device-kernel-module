@@ -1,8 +1,9 @@
 # Rust Queue - a bounded FIFO message queue as a Linux kernel module
 ## Spring 2026, Operating Systems - CMSI 3510
 
-<img width="788" height="621" alt="Screenshot 2026-05-08 at 9 45 42 AM" src="https://github.com/user-attachments/assets/4c46bb5a-5a4b-475b-a79e-a7d3bcde8967" />
+<img width="788" height="621" alt="Screenshot 2026-05-08 at 9 45 42 AM" src="https://github.com/user-attachments/assets/4c46bb5a-5a4b-475b-a79e-a7d3bcde8967" />  
 
+<br>
 `rustqueue` is a Linux kernel module that exposes a bounded FIFO message queue at `/dev/rustqueue`, written in safe Rust. It demonstrates how Rust's ownership and locking discipline make a small in-kernel IPC primitive easy to write and structurally free of buffer-handling bugs.
 
 ## Future Work
